@@ -2,10 +2,10 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 
 module.exports = withModuleFederationPlugin({
 
-  name: 'mfe1',
-
+  name: 'newpie',
+  filename: 'remoteEntry.js',
   exposes: {
-    './Component': './apps/newpie/src/app/app.component.ts',
+    './Module': './apps/newpie/src/app/induction/induction.module.ts',
   },
 
   shared: {
