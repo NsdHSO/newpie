@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { InductionComponent } from './induction.component';
 import { HeaderComponent } from './components/header/header.component';
+import { BodyComponent }   from './components/body/body.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,7 @@ const routes: Routes = [
   },
 ];
 @NgModule({
-  declarations: [InductionComponent, HeaderComponent],
+  declarations: [InductionComponent, HeaderComponent, BodyComponent],
   imports: [CommonModule, RouterModule.forChild(routes)],
 })
 export class InductionModule {}

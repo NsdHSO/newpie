@@ -20,9 +20,12 @@
           "apps/newpie/src/assets"
         ],
         "styles": [
-          "apps/newpie/src/styles.scss"
+          "apps/newpie/src/styles.scss",
+          "node_modules/bootstrap/scss/bootstrap.scss"
         ],
-        "scripts": [],
+        "scripts": [
+          "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+        ],
         "customWebpackConfig": {
           "path": "apps/newpie/webpack.config.js"
         },
@@ -39,7 +42,7 @@
             {
               "type": "anyComponentStyle",
               "maximumWarning": "2kb",
-              "maximumError": "4kb"
+              "maximumError": "10kb"
             }
           ],
           "fileReplacements": [

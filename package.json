@@ -2,6 +2,7 @@
   "name": "open-space",
   "version": "0.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
@@ -21,6 +22,7 @@
     "@angular/platform-browser-dynamic": "~14.1.1",
     "@angular/router": "~14.1.1",
     "@nrwl/angular": "14.5.10",
+    "bootstrap": "^5.2.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
