@@ -1,12 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router }    from "@angular/router";
 
-@Component({
-  selector: 'open-space-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
-})
-export class HeaderComponent implements OnInit {
-  constructor() {}
+@Component ( {
+  selector    : 'open-space-header',
+  templateUrl : './header.component.html',
+  styleUrls   : [ './header.component.scss' ],
+} )
+export class HeaderComponent {
+  constructor (private _router: Router) {}
 
-  ngOnInit(): void {}
+  public loginSupaBase(){
+    this._router.navigate(['/login'])
+  }
+
 }
