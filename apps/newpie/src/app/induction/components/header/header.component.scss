@@ -1,7 +1,26 @@
 .container-header{
-  height: 4rem;
+  height: 10rem;
   width: 100%;
   .up-side{
     z-index: 1080;
   }
+}
+.colorbutton{
+  background: #112222;
+  display:flex;
+  text-align: right;
+}
+.background-button{
+  height: 70px;
+  width: 250px;
+  color:black;
+  background: #FFFFFF;
+  border:none;
+  font-size: 30px;
+  transition: all 0.3s;
+}
+.background-button:hover{
+  border:none;
+  color: #100707;
+  background: #FFFFFF;
 }
