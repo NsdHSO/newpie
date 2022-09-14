@@ -1,6 +1,6 @@
-on: push
+on: 
   push:
-    tags: 
+    tags:
     - '*'
       
 name: Build Angular
