@@ -1,4 +1,8 @@
 on: push
+  push:
+    tags: 
+    - '*'
+      
 name: Build Angular
 jobs:
   build:
