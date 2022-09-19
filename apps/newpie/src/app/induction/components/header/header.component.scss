@@ -18,9 +18,10 @@
   border:none;
   font-size: 30px;
   transition: all 0.3s;
-}
-.background-button:hover{
-  border:none;
+
+&:hover {
+  border: none;
   color: #100707;
   background: #FFFFFF;
+}
 }
