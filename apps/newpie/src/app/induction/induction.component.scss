@@ -3,6 +3,10 @@ body {
   background-color: blue;
 }
 
+.tot{
+  margin:0px;
+}
+
 .title {
   background: #112222;
   font-family: "Cairo";
@@ -43,12 +47,13 @@ body {
 }
 
 .background {
+  color: #FFF;
   position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgb(255, 255, 255);
+  background: rgb(5, 4, 4);
   overflow: hidden;
   z-index: -4;
 }
@@ -56,13 +61,14 @@ body {
   font-size:35px;
   text-align: center;
   margin:30px;
+  color:#fff;
 }
 
 .img{
    margin: 0%;
   // padding: 20px;
   // height: 300px;
- 
+
   text-align: center;
 }
 // img{
@@ -72,7 +78,7 @@ body {
 //   justify-content: center;
 // }
 
-//for h1 
+//for h1
 // 40
 .animate-charcter
 {
@@ -102,4 +108,12 @@ body {
   to {
     background-position: 200% center;
   }
+}
+.imgtruck{
+  height:100%;
+  margin:0
+}
+img{
+  width: 70%;
+  opacity:0.9;
 }
