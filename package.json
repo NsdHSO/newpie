@@ -2,7 +2,7 @@
   "name": "open-space",
   "version": "0.0.1",
   "license": "MIT",
-  "type": "module",
+
   "scripts": {
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
