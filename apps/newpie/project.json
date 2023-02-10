@@ -17,7 +17,8 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/newpie/src/favicon.ico",
-          "apps/newpie/src/assets"
+          "apps/newpie/src/assets",
+          "apps/auth/src/netlify.toml"
         ],
         "styles": [
           "apps/newpie/src/styles.scss",
